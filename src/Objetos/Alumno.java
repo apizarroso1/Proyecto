@@ -1,4 +1,4 @@
-package clase;
+package Objetos;
 
 import daw.com.Pantalla;
 import daw.com.Teclado;
