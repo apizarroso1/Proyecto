@@ -1,4 +1,4 @@
-package ed;
+package entregaED;
 import daw.com.Teclado;
 import daw.com.Pantalla;
 

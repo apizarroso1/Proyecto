@@ -1,4 +1,4 @@
-package ed;
+package entregaED;
 //Libreria de Miguel
 import daw.com.Pantalla;
 import daw.com.Teclado;
