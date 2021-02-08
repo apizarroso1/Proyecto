@@ -1,4 +1,4 @@
-package ed;
+package ed1;
 
 import daw.com.Pantalla;
 
@@ -32,7 +32,7 @@ public class Vendedores {
 		this.fondos = fondos;
 	}
 	
-	//Métodos getters
+	//Mï¿½todos getters
 	public String getDni() {
 		return this.dni;
 	}
@@ -49,7 +49,7 @@ public class Vendedores {
 		return this.fondos;
 	}
 	
-	//Métodos setters
+	//Mï¿½todos setters
 	public void setDni(String dni) {
 		this.dni = dni;
 	}
@@ -66,7 +66,7 @@ public class Vendedores {
 		this.fondos = fondos;
 	}
 	
-	//Métodos adicionales
+	//Mï¿½todos adicionales
 	public static void mostrarDatosV(String dni, String nombre, int nCoches, int fondos) {
 		Pantalla.escribirString(nombre);
 		Pantalla.escribirString(dni);

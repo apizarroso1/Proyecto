@@ -1,4 +1,4 @@
-package ed;
+package ed1;
 //Libreria de Miguel
 import daw.com.Pantalla;
 import daw.com.Teclado;
@@ -19,13 +19,13 @@ public class Coche {
 		this.edad = 0;
 	}
 	
-	//Constructor 2: por 2 parámetros
+	//Constructor 2: por 2 parï¿½metros
 	public Coche(String color, int edad) {
 		this.color = color;
 		this.edad = edad;
 	}
 	
-	//Constructor 3: por todos los parámetros posibles
+	//Constructor 3: por todos los parï¿½metros posibles
 	public Coche(String color,String fabricante, String matricula, int edad) {
 		this.color = color;
 		this.fabricante = fabricante;
@@ -33,7 +33,7 @@ public class Coche {
 		this.edad = edad;
 	}
 	
-	//Métodos getters
+	//Mï¿½todos getters
 	public String getColor() {
 		return this.color;
 	}
@@ -50,7 +50,7 @@ public class Coche {
 		return this.edad;
 	}
 	
-	//Métodos setters
+	//Mï¿½todos setters
 	public void setColor(String color) {
 		this.color = color;
 	}
@@ -67,7 +67,7 @@ public class Coche {
 		this.edad = edad;
 	}
 	
-	//Métodos de opciones
+	//Mï¿½todos de opciones
 	public int valorarCoche(int edad) {
 		int valor = 0;
 		

@@ -1,4 +1,4 @@
-package ed;
+package ed1;
 import daw.com.Teclado;
 import daw.com.Pantalla;
 
@@ -14,12 +14,12 @@ public class AppCoche {
 		
 		//Lectura de valores mediante el teclado
 		color = Teclado.leerString("Teclee el color del coche");
-		matricula = Teclado.leerString("Teclee la matrícula del coche en formato 1111 AAA");
+		matricula = Teclado.leerString("Teclee la matrï¿½cula del coche en formato 1111 AAA");
 		fabricante = Teclado.leerString("Teclee el fabricante del coche");
-		edad = Teclado.leerInt("Teclee la edad del coche en años");
+		edad = Teclado.leerInt("Teclee la edad del coche en aï¿½os");
 		nombre = Teclado.leerString("Introduzca el nombre del comprador");
 		dni = Teclado.leerString("Introduzca el dni en formato 11111111A");
-		nCoches = Teclado.leerInt("Introduzca el número de coches a vender");
+		nCoches = Teclado.leerInt("Introduzca el nï¿½mero de coches a vender");
 		fondos = Teclado.leerInt("Introduzca sus fondos");
 		
 		int opcion2 = 0;
@@ -28,7 +28,7 @@ public class AppCoche {
 			Vendedores.mostrarDatosV(v.getNombre(), v.getDni(), v.getNCoches(), v.getFondos());
 		}
 		
-		//Aplicación de esos valores al objeto
+		//Aplicaciï¿½n de esos valores al objeto
 		c.setColor(color);
 		c.setMatricula(matricula);
 		c.setFabricante(fabricante);
@@ -36,10 +36,10 @@ public class AppCoche {
 		
 		
 		
-		//Menú para acceder a las opciones
+		//Menï¿½ para acceder a las opciones
 		int opcion = 0;
 		while ((opcion != 1) && (opcion != 2) && (opcion != 3) && (opcion != 4)) {
-			opcion = Teclado.leerInt("Teclee su opción: 1 para valorar su coche; 2 para conducirlo; 3 para valorarlo y venderlo; 4 para salir");
+			opcion = Teclado.leerInt("Teclee su opciï¿½n: 1 para valorar su coche; 2 para conducirlo; 3 para valorarlo y venderlo; 4 para salir");
 			if (opcion == 1) {
 				c.valorarCoche(c.getEdad());
 			}

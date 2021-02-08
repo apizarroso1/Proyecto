@@ -1,4 +1,4 @@
-package ed;
+package ed1;
 
 import java.util.Scanner;
 

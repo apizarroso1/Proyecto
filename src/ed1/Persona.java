@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ed;
+package ed1;
 
 /**
  * @author anmar
