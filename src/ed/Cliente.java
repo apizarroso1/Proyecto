@@ -9,13 +9,13 @@ public class Cliente {
 	private int edadCliente;
 	
 	
-	//Constructor por parametros
+	//Constructor por parámetros
 	public Cliente(String nombreCliente, int edadCliente) {
 		this.nombreCliente = nombreCliente;
 		this.edadCliente = edadCliente;
 	}
 	
-	//Metodos getters
+	//Métodos getters
 	public String getNombreCliente() {
 		return this.nombreCliente;
 	}
@@ -24,7 +24,7 @@ public class Cliente {
 		return this.edadCliente;
 	}
 	
-	//Metodos setters
+	//Métodos setters
 	public void setNombreCliente(String nombreCliente) {
 		this.nombreCliente = nombreCliente;
 	}
@@ -33,7 +33,7 @@ public class Cliente {
 		this.edadCliente = edadCliente;
 	}
 	
-	//Metodos adicionales
+	//Métodos adicionales
 	public void darAlta() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduzca su nombre");

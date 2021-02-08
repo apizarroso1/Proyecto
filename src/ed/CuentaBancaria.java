@@ -8,13 +8,13 @@ public class CuentaBancaria {
 	private int numeroCuenta;
 	private float saldoCuenta;
 	
-	//Construtor por parametros
+	//Construtor por parámetros
 	public CuentaBancaria(int numeroCuenta, float saldoCuenta) {
 		this.numeroCuenta = numeroCuenta;
 		this.saldoCuenta = saldoCuenta;
 	}
 	
-	//Metodos getters
+	//Métodos getters
 	public int getNumeroCuenta() {
 		return this.numeroCuenta;
 	}
@@ -23,7 +23,7 @@ public class CuentaBancaria {
 		return this.saldoCuenta;
 	}
 	
-	//Metodos setters
+	//Métodos setters
 	public void setNumeroCuenta(int numeroCuenta) {
 		this.numeroCuenta = numeroCuenta;
 	}
@@ -32,7 +32,7 @@ public class CuentaBancaria {
 		this.saldoCuenta = saldoCuenta;
 	}
 	
-	//Metodos adicionales
+	//Métodos adicionales
 	public void ingresarDinero() {
 		
 		float ingreso;

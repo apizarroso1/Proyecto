@@ -9,7 +9,7 @@ public class SistemaBancario {
 		System.out.print("\n----------------------------------------");
 		
 		Cliente c1 = new Cliente("Federico", 19);
-		Cliente c2 = new Cliente("Matias", 40);
+		Cliente c2 = new Cliente("David", 40);
 		Cliente c3 = new Cliente("Juan", 36);
 		CuentaBancaria b1 = new CuentaBancaria(1, 70000);
 		CuentaBancaria b2 = new CuentaBancaria(2, 500);
@@ -48,7 +48,7 @@ public class SistemaBancario {
 		System.out.println(c3.toString());
 		System.out.println(b3.toString());
 		
-		System.out.print("----------------------------------------");
+		System.out.print("\n----------------------------------------");
 		System.out.print("\nFIN Programa Sistema Bancario");
 		System.out.print("\n----------------------------------------");
 	}
